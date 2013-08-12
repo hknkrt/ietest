@@ -1,0 +1,183 @@
+.tvyoplus .box .right .baslik .sol{
+	display: inline-block;
+	padding-top:15px;
+}
+.tvyoplus .box .paket .baslik .sol
+{
+ display: inline-block;
+	padding-top:15px;
+}
+.tvyoplus .box .right .baslik h1
+{
+	font-family: arial;
+	color: #747474;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 8px;
+}
+
+.tvyoplus .box .paket .baslik .sol span
+{
+
+  line-height: 36px;
+}
+.tvyoplus .box .right .baslik .sol span
+{
+ 
+  line-height: 36px;
+}
+.tvyoplus .box .right .baslik h2
+{
+  font-family: arial;
+  color: #4697e4;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 8px;
+  margin-top:-2px;
+}
+
+.tvyoplus .box .paket .baslik h1
+{
+  font-family: arial;
+  color: #747474;
+  font-size: 15px;
+  font-weight: bold;
+		line-height: 8px;
+}
+
+
+.tvyoplus .box .paket .baslik h2
+{
+  font-family: arial;
+  color: #afafaf;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 8px;
+  margin-top:-2px;
+}
+
+.tvyoplus .box .right .main .rightcolumn .gsmtwo
+{
+  margin-right: 0px;
+}
+
+.checkbox229_lbl {
+	margin-top:40px;
+	float:left;
+	margin-left:-200px;
+	margin-bottom:10px;
+}
+.tvyoplus .box .paket .main .leftcolumnone
+{
+  height: 260px;
+  padding: 15px 10px 10px 10px;
+  margin: 10px 3px 10px 8px;
+}
+.tvyoplus .box .paket .leftcolumnone h2 {
+height:5px;
+}
+.tvyoplus .box .paket .leftcolumntwo h2 {
+height:5px;
+}
+.tvyoplus .box .paket .main .leftcolumntwo
+{
+  height: 260px;
+  padding: 15px 10px 10px 10px;
+  margin: 10px 3px 10px 3px;
+}
+
+.tvyoplus .box .paket .main .leftcolumnone .sureler
+{
+ 
+  margin-top: -30px;
+
+}
+
+.tvyoplus .box .paket .main .leftcolumntwo .sureler
+{
+ 
+  margin-top: -30px;
+ 
+}
+
+.tvyoplus .box .paket a.fiyatone
+{
+    margin-top:-10px;
+
+}
+.tvyoplus .box .paket a.fiyattwo
+{
+  margin-top:-10px;
+}
+.tvyoplus .box .paket a.fiyatthree
+{
+    margin-top:-10px;
+}
+
+
+.tvyoplus .box .paket h4
+{
+
+  margin-top: 17px;
+}
+
+.tvyoplus .box .paket h5
+{
+
+  margin-top: 14px;
+}
+
+.tvyoplus .box .paket .main .webone
+{
+	margin-top:10px;
+}
+.tvyoplus .box .paket .main .tabletone
+{
+	margin-top:10px;
+}
+.tvyoplus .box .paket .main .mobilone
+{
+	margin-top:10px;
+}
+.tvyoplus .box .paket a.hemenal
+{
+  
+  margin: 9px 0 0 0;
+}
+.tvyoplus .box .right .main .leftcolumn p
+{
+
+height: 15px;
+	padding-top:14px;
+display: block;
+vertical-align: middle;
+}
+
+.tvyoplus .box .right .main .bireyselleftcolumn p
+{
+	height: 15px;
+	padding-top:14px;
+}
+.tvyoplus .box .right .main .bireyselrightcolumn .semt {
+float: left;
+width: 145px;
+height: 36px;
+margin-right: 5px;
+}
+
+
+.tvyoplus .box .right .main .bireyselrightcolumn .tckimlik {
+float: left;
+width: 145px;
+height: 26px;
+margin-top: 83px;
+}
+
+.tvyoplus .seccolumn .floatright {
+margin-top: -25px;
+}
+
+.tvyoplus .box .right .main .bireyselrightcolumn p{
+	width:425px;
+	height:35px;
+}

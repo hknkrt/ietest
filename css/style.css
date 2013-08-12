@@ -1,0 +1,2102 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: 'dosismedium';
+    src: url('dosis-medium.eot');
+    src: url('dosis-medium.eot?#iefix') format('embedded-opentype'),
+         url('dosis-medium.woff') format('woff'),
+         url('dosis-medium.ttf') format('truetype'),
+         url('dosis-medium.svg#dosismedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.tvyoplus .box table {
+	border-spacing:0px;
+	border:none;
+	margin-left:-1px;
+	border-collapse:collapse;
+}
+
+.tvyoplus .box tr {
+	height:45px;
+}
+
+
+.tvyoplus .box 
+{
+  background-color: #f6f6f6;
+  width: 638px;
+  height: 358px;
+  border: 1px  #000 inset;
+}
+
+.tvyoplus .uyelikbox
+{
+ background: url('../images/satinalbg.png');
+ background-repeat:repeat;
+  width: 638px;
+  height: 358px;
+  border: 1px  #000 inset;
+  position: absolute;
+}
+
+.tvyoplus .satinalbox
+{
+  background: url('../images/satinalbg.png');
+  width: 608px;
+  height: 29px;
+  color: #c3cdd3;
+  font-family: arial;
+  font-size: 12px;
+  text-align: left;
+  padding: 15px;
+  border: 1px  #000 inset;
+  position: absolute;
+  margin-top: 300px;
+}
+
+.tvyoplus .uyelikbox .right
+{
+  margin: 0 80px 0 60px;
+  padding-top: 60px;
+}
+
+.tvyoplus .box .left
+{
+  background-color: #f6f6f6;
+  width: 79px;
+  height: 100%;
+  float: left;
+}
+
+.tvyoplus .box .right
+{
+  float: right;
+  font-family: arial;
+  background: url(../images/right-box-bg.png) center left no-repeat #f6f6f6;
+  width: 559px;
+  height: 100%;
+}
+
+.tvyoplus .box .paket
+{
+  float: left;
+  font-family: arial;
+  width: 638px;
+  height: 100%;
+}
+
+.tvyoplus .box .right a.kuponbuton:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -291px -716px;
+}
+
+.tvyoplus .box .right a.kuponbuton
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -291px -682px;
+  width: 115px;
+  height: 26px;
+  float: left;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus input[type="text"]
+{
+	background: transparent url(../images/input.png) no-repeat top left;
+border:none;
+
+}
+
+.tvyoplus .hata
+{
+	border:2px inset #ec8f8f;
+}
+
+input[type=checkbox].css-checkbox
+{
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label
+{
+  padding-left: 20px;
+  height: 15px;
+  display: inline-block;
+  line-height: 15px;
+  background-repeat: no-repeat;
+  background-position: -386px -1127px;
+  font-size: 12px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.tvyoplus .marginbt
+{
+  margin: 15px 0px 20px 0px;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label
+{
+  background-position: -386px -1152px;
+}
+
+.css-label
+{
+  background: url('../images/plus-sprite.png');
+}
+
+.css-label a
+{
+  color: #4f4f4f;
+}
+
+.tvyoplus .box .left a.kredikarti.active
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -205px -152px;
+}
+
+.tvyoplus .box .left a.kredikarti:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -114px -152px;
+}
+
+.tvyoplus .box .left a.kredikarti
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -25px -152px;
+  width: 81px;
+  height: 119px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .left .kredikartiiki
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -105px -1036px;
+  width: 81px;
+  height: 188px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .left .kredikartiuc
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -196px -1036px;
+  width: 81px;
+  height: 188px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .left .kredikartidort
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -287px -1036px;
+  width: 81px;
+  height: 188px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .left a.mobil.active
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -205px -281px;
+}
+
+.tvyoplus .box .left a.mobil:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -114px -281px;
+}
+
+.tvyoplus .box .left a.mobil
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -25px -282px;
+  width: 81px;
+  height: 120px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .left a.geri:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -114px -75px;
+}
+
+.tvyoplus .box .left a.geri
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -25px -75px;
+  width: 81px;
+  height: 67px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .left a.kupon.active
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -205px -412px;
+}
+
+.tvyoplus .box .left a.uyelik.active
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -25px -543px;
+  width: 81px;
+  height: 119px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .left a.kupon:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -114px -412px;
+}
+
+.tvyoplus .box .left a.kupon
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -25px -412px;
+  width: 81px;
+  height: 119px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .right .baslik
+{
+  padding-left: 10px;
+  width: 549px;
+  height: 55px;
+  border-bottom: #e6e6e6 solid 1px;
+}
+
+.tvyoplus .box .right .baslik h1
+{
+ font-family: arial;
+color: #747474;
+font-size: 12px;
+font-weight: bold;
+line-height: 8px;
+}
+
+.tvyoplus .box .right .baslik h2
+{
+  font-family: arial;
+  color: #4697e4;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tvyoplus .box .right .baslik .sol
+{
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+
+.tvyoplus .box .right .baslik .sag
+{
+  float: right;
+  width: 40%;
+  text-align: left;
+}
+
+.tvyoplus .box .right .baslik .sag a.kapat
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -24px -8px;
+  width: 46px;
+  height: 55px;
+  display: block;
+  text-decoration: none;
+  float: right;
+  border-left: 1px solid #e6e6e6;
+}
+
+.tvyoplus .box .right .baslik .sag a.kapat:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -85px -8px;
+}
+
+.tvyoplus .box .paket .baslik
+{
+  padding-left: 10px;
+  width: 628px;
+  height: 55px;
+  border-bottom: #e6e6e6 solid 1px;
+}
+
+.tvyoplus .box .paket .baslik h1
+{
+  font-family: arial;
+  color: #747474;
+  font-size: 15px;
+  font-weight: bold;
+    line-height: 11px;
+}
+
+
+.tvyoplus .box .paket .baslik h2
+{
+  font-family: arial;
+  color: #afafaf;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 11px;
+}
+
+.tvyoplus .box .paket .baslik .sol
+{
+  width: 60%;
+  float: left;
+  text-align: left;
+}
+
+.tvyoplus .box .paket .baslik .sag
+{
+  float: right;
+  width: 40%;
+  text-align: left;
+}
+
+.tvyoplus .box .paket .baslik .sag a.kapat
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -24px -8px;
+  width: 46px;
+  height: 55px;
+  display: block;
+  text-decoration: none;
+  float: right;
+  border-left: 1px solid #e6e6e6;
+}
+
+.tvyoplus .box .paket .baslik .sag a.kapat:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -85px -8px;
+}
+
+.tvyoplus .box .paket .baslik .sag .guvenli
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -163px -21px;
+  width: 115px;
+  height: 30px;
+  display: block;
+  margin: 15px 0 0 35px;
+  float: left;
+}
+
+.tvyoplus .box .right .main
+{
+ width: 100%;
+height: 240px;
+text-align: left;
+padding-top: 10px;
+}
+
+.tvyoplus .box .right .uyelikmain
+{
+  width: 100%;
+  height: 262px;
+  margin-left: 10px;
+  text-align: left;
+}
+.tvyoplus .box .right .main #p{
+	width:425px;
+	height:35px;
+}
+.tvyoplus .box .paket .main
+{
+  width: 100%;
+  height: 262px;
+  text-align: left;
+}
+
+.tvyoplus .box .right .uyeliksifremain
+{
+  width: 100%;
+  height: 255px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.tvyoplus .box .right .uyelikkayitmain
+{
+  width: 540px;
+  height: 225px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.tvyoplus .box .right .maintesekkur
+{
+  width: 540px;
+  height: 250px;
+  margin-left: 10px;
+  display: block;  
+}
+
+.tvyoplus .uyelikbox .right .maintesekkur
+{
+  width: 100%;
+  height: 170px;
+  margin-left: 10px;
+}
+
+.tvyoplus .box .right .main .leftcolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 140px;
+  clear: both;
+  float: left;
+  margin-left: 10px;
+}
+
+.tvyoplus .box .paket .main .leftcolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 299px;
+  clear: both;
+  float: left;
+  padding: 10px;
+}
+
+.tvyoplus .box .paket .main .leftcolumnone
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -11px -1826px;
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 185px;
+  height: 270px;
+  float: left;
+  padding:10px;
+  margin: 10px 3px 10px 8px;
+}
+
+.tvyoplus .box .paket .main .leftcolumntwo
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -241px -1826px;
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 185px;
+  height: 270px;
+  float: left;
+  padding: 10px;
+  margin: 10px 3px 10px  3px;
+}
+.tvyoplus .box .paket .main .webone
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -11px -1725px;
+  width: 112px;
+  height: 26px;
+  float: left;
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #e6e6e6;
+  margin-left: -10px;
+}
+
+.tvyoplus .box .paket .main .tabletone
+{
+ background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -145px -1725px;
+  width: 102px;
+  height: 26px;
+  float: left;
+ 
+  border-bottom: 1px solid #e6e6e6;
+  
+}
+
+.tvyoplus .box .paket .main .mobilone
+{
+ background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -240px -1725px;
+  width: 90px;
+  height: 26px;
+  float: left;
+  
+  border-bottom: 1px solid #e6e6e6;
+}
+ 
+ 
+ .tvyoplus .box .paket .main .webtwo
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -11px -1763px;
+  width: 140px;
+  height: 36px;
+  float: left;
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.tvyoplus .box .paket .main .tablettwo
+{
+ background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -149px -1763px;
+  width: 140px;
+  height: 36px;
+  float: left;
+ 
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+.tvyoplus .box .paket .main .mobiltwo
+{
+ background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -289px -1763px;
+  width: 140px;
+  height: 36px;
+  float: left;
+  margin: 0px 0px 8px -10px;
+
+} 
+.tvyoplus .box .paket .main .web
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -384px -1036px;
+  width: 65px;
+  height: 17px;
+  float: left;
+}
+
+.tvyoplus .box .paket .main .tablet
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -384px -1064px;
+  width: 60px;
+  height: 17px;
+  float: left;
+}
+
+.tvyoplus .box .paket .main .mobil
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -384px -1090px;
+  width: 60px;
+  height: 17px;
+  float: left;
+}
+
+.tvyoplus .box .paket .leftcolumnone h1
+{
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  line-height: 4px;
+}
+
+.tvyoplus .box .paket .leftcolumntwo h1
+{
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  line-height: 4px;
+}
+
+.tvyoplus .box .paket .leftcolumntwo .altyazi
+{
+  height: 30px;
+  font-size: 12px;
+  font-family: arial;
+  color: #0b3043;
+}
+
+.tvyoplus .box .paket .altyazi
+{
+  height: 30px;
+  font-size: 12px;
+  font-family: arial;
+  color: #8e8e8e;
+}
+
+.tvyoplus .box .paket .main .leftcolumnone span
+{
+  width: 185px;
+  display: block;
+  height: 3px;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 20px 0 15px 0;
+}
+
+.tvyoplus .box .paket .leftcolumnone span.last
+{
+  display: block;
+  width: 185px;
+  height: 9px;
+  border-bottom: 0px;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 20px 0 20px 0;
+}
+
+.tvyoplus .box .paket .main .leftcolumntwo span
+{
+  width: 185px;
+  display: block;
+  height: 3px;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 20px 0 15px 0;
+}
+
+.tvyoplus .box .paket .leftcolumntwo span.last
+{
+  display: block;
+  width: 185px;
+  height: 9px;
+  border-bottom: 0px;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 20px 0 20px 0;
+}
+
+.tvyoplus .box .paket .main .leftcolumnone .sureler
+{
+  float: right;
+  clear: both;
+  margin-top: -20px;
+  font-family: arial;
+  font-size: 12px;
+  color: #107ac2;
+  padding-top: 15px;
+}
+
+.tvyoplus .box .paket .main .leftcolumntwo .sureler
+{
+  float: right;
+  clear: both;
+  margin-top: -20px;
+  font-family: arial;
+  font-size: 12px;
+  color: #107ac2;
+  padding-top: 15px;
+}
+
+.tvyoplus .box .paket .main .leftcolumnthree span
+{
+  width: 185px;
+  display: block;
+  height: 3px;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 20px 0 15px 0;
+}
+
+.tvyoplus .box .paket .leftcolumnthree span.last
+{
+  display: block;
+  width: 185px;
+  height: 9px;
+  border-bottom: 0px;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 20px 0 20px 0;
+}
+
+.tvyoplus .box .paket .main .leftcolumnthree .sureler
+{
+  float: right;
+  clear: both;
+  margin-top: -20px;
+  font-family: arial;
+  font-size: 12px;
+  color: #107ac2;
+  padding-top: 15px;
+}
+
+.tvyoplus .box .paket .leftcolumnthree h1
+{
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  line-height: 4px;
+}
+
+.tvyoplus .box .paket .leftcolumnone h2
+{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #8e8e8e;
+}
+
+.tvyoplus .box .paket .leftcolumntwo h2
+{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #0b3043;
+}
+
+.tvyoplus .box .paket .leftcolumnthree h2
+{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #8e8e8e;
+}
+
+.tvyoplus .box .paket .main .leftcolumnthree
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -11px -1826px;
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 185px;
+  height: 270px;
+  float: left;
+  padding: 10px;
+  margin: 10px 3px 10px  0;
+}
+
+.tvyoplus .box .paket .main .bigleftcolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 195px;
+  clear: both;
+  float: left;
+  padding-left: 10px;
+}
+
+.tvyoplus .box .paket .main .bigrightcolumn
+{
+  float: left;
+  width: 410px;
+  text-align: left;
+  color: #4f4f4f;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.tvyoplus .box .right .main .kuponleftcolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  margin-left: 170px;
+  width: 80px;
+  clear: both;
+  float: left;
+  padding-top: 12px;
+}
+
+.tvyoplus .box .right .uyelikmain .uyelikleftcolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 260px;
+  clear: both;
+  float: left;
+}
+
+.tvyoplus .box .right .uyeliksifremain .uyeliksifrecolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 260px;
+  clear: both;
+  float: left;
+  margin-top: 10px;
+  line-height: 23px;
+}
+
+.tvyoplus .box .right .uyelikbottomleftcolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 335px;
+  clear: both;
+  float: left;
+}
+
+.tvyoplus .box .right .uyelikbottomleftcolumn a
+{
+  color: #107ac2;
+}
+
+.tvyoplus .box .right .uyelikbottomrightcolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 130px;
+  clear: both;
+  float: right;
+  margin: -35px 14px 0 0;
+}
+
+.tvyoplus .box .right .uyelikmain .uyelikcentercolumn
+{
+  border-left: 1px solid #e6e6e6;
+  width: 1px;
+  height: 100%;
+  float: left;
+}
+
+.tvyoplus .box .paket .main .centercolumn
+{
+  border-left: 1px solid #e6e6e6;
+  width: 1px;
+  height: 302px;
+  float: left;
+}
+
+.tvyoplus .box .right .uyeliksifremain .uyelikcentercolumn
+{
+  border-left: 1px solid #e6e6e6;
+  width: 1px;
+  height: 100%;
+  float: left;
+}
+
+.tvyoplus .box .paket .main .rightcolumn
+{
+  float: left;
+  width: 297px;
+  text-align: left;
+  color: #4f4f4f;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.tvyoplus .box .paket h1
+{
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  color: #707070;
+}
+
+.tvyoplus .box .paket .rightcolumn h2
+{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: normal;
+  height: 15px;
+  color: #8e8e8e;
+}
+
+.tvyoplus .box .paket .leftcolumn h2
+{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: normal;
+  height: 15px;
+  color: #8e8e8e;
+}
+
+.tvyoplus .box .paket .bigrightcolumn h2
+{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #8e8e8e;
+}
+
+.tvyoplus .box .paket h4
+{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: normal;
+  color: #8e8e8e;
+  float: left;
+  width: 40px;
+}
+
+.tvyoplus .box .paket h5
+{
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+  width: 70px;
+  color: #4697e4;
+  margin-top: 14px;
+}
+
+.tvyoplus .box .paket .foto
+{
+  float: left;
+  width: 100px;
+}
+
+.tvyoplus .box .paket .buyukfoto
+{
+  float: left;
+  width: 190px;
+}
+
+.tvyoplus .box .paket .main .leftcolumn span
+{
+  width: 192px;
+  display: block;
+  height: 9px;
+  border-bottom: 1px solid #e6e6e6;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 9px 0 9px 0;
+  margin-left: 100px;
+}
+
+.tvyoplus .box .paket .main .rightcolumn span
+{
+  width: 192px;
+  display: block;
+  height: 9px;
+  border-bottom: 1px solid #e6e6e6;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 9px 0 9px 0;
+  margin-left: 100px;
+}
+
+.tvyoplus .box .paket .main .bigrightcolumn .sureler
+{
+  float: right;
+  clear: both;
+  margin-top: -20px;
+  font-family: arial;
+  font-size: 12px;
+  color: #107ac2;
+  padding-top: 15px;
+}
+
+.tvyoplus .box .paket .main .bigrightcolumn span
+{
+  width: 405px;
+  display: block;
+  height: 9px;
+  border-bottom: 1px solid #e6e6e6;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 20px 0 15px 0;
+}
+
+.tvyoplus .box .paket .bigrightcolumn span.last
+{
+  display: block;
+  width: 405px;
+  height: 9px;
+  border-bottom: 0px;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 20px 0 15px 0;
+}
+
+.tvyoplus .box .paket .rightcolumn span.last
+{
+  margin-left: 100px;
+  display: block;
+  width: 192px;
+  height: 9px;
+  border-bottom: 0px;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 9px 0 9px 0;
+}
+
+.tvyoplus .box .paket .leftcolumn span.last
+{
+  margin-left: 100px;
+  display: block;
+  width: 192px;
+  height: 9px;
+  border-bottom: 0px;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-family: arial;
+  padding: 9px 0 9px 0;
+}
+
+.tvyoplus .box .right .uyelikmain .uyelikrightcolumn
+{
+  margin-top: 10px;
+  float: left;
+  width: 270px;
+  text-align: left;
+  color: #4f4f4f;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.tvyoplus .box .right .uyeliksifremain .uyelikrightcolumn
+{
+  margin-top: 10px;
+  float: left;
+  width: 270px;
+  text-align: left;
+  color: #4f4f4f;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.tvyoplus .box .right .uyelikkayitmain .uyelikleftcolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 260px;
+  clear: both;
+  float: left;
+}
+
+.tvyoplus .box .right .uyelikkayitmain .uyelikcentercolumn
+{
+  border-left: 1px solid #e6e6e6;
+  width: 1px;
+  height: 100%;
+  float: left;
+}
+
+.tvyoplus .box .right .uyelikkayitmain .uyelikrightcolumn
+{
+  float: left;
+  width: 270px;
+  text-align: left;
+  color: #4f4f4f;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.tvyoplus .box .right .uyelikaltrightcolumn
+{
+  float: right;
+  width: 288px;
+  background-color: #e4e4e4;
+  height: 27px;
+  text-decoration: none;
+  margin-top: -10px;
+  border-left: 1px solid #e6e6e6;
+  text-align: center;
+  color: #888888;
+  font-weight: normal;
+  font-size: 12px;
+  padding-top: 12px;
+}
+
+.tvyoplus .box .right .uyelikaltrightcolumn a
+{
+  color: #107ac2;
+  text-decoration: underline;
+}
+
+.tvyoplus .uyelikustbaslik
+{
+  padding: 10px 0 0 10px;
+  width: 549px;
+  height: 36px;
+  background-image: -webkit-linear-gradient(bottom, rgba(236,236,236,1), rgba(238,238,238,1));
+  background-image: -moz-linear-gradient(bottom, rgba(236,236,236,1), rgba(238,238,238,1));
+  background-image: -o-linear-gradient(bottom, rgba(236,236,236,1), rgba(238,238,238,1));
+  background-image: -ms-linear-gradient(bottom, rgba(236,236,236,1), rgba(238,238,238,1));
+  background-image: linear-gradient(to top, rgba(236,236,236,1), rgba(238,238,238,1));
+  border-bottom: #cecfd0 solid 1px;
+}
+
+.tvyoplus .uyelikustbaslik .sol
+{
+  width: 55%;
+  float: left;
+  padding-top: 2px;
+  text-align: left;
+  color: #5d5d5d;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tvyoplus .box .right .uyelikaltbaslik
+{
+  padding: 10px 0 0 10px;
+  width: 549px;
+  height: 31px;
+  border-top: #e6e6e6 solid 1px;
+}
+
+.tvyoplus .box .right .main .rightcolumn
+{
+  margin-top: 18px;
+  float: left;
+  width: 400px;
+  text-align: left;
+}
+
+.tvyoplus .box .right .uyelikmain .uyelikrightcolumn a.sifremiunuttum
+{
+  float: right;
+  color: #107ac2;
+  font-size: 12px;
+  text-decoration: underline;
+  margin: 15px;
+}
+
+.tvyoplus .box .right .main .kuponrightcolumn
+{
+  margin-top: 18px;
+  float: left;
+  width: 100px;
+  text-align: left;
+}
+
+.tvyoplus .box .right .main .bireyselleftcolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 80px;
+  clear: both;
+  float: left;
+  margin-left: 10px;
+}
+.tvyoplus .box .right .main .kurumsalleftcolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 80px;
+  clear: both;
+  float: left;
+  margin-left: 10px;
+}
+
+.tvyoplus .box .right .main .bireyselrightcolumn
+{
+  margin-top: 18px;
+  float: left;
+  width: 425px;
+  font-size: 12px;
+  color: #4f4f4f;
+}
+
+.tvyoplus .box .right .main .mobilleftcolumn
+{
+  color: #747474;
+  font-size: 15px;
+  line-height: 24px;
+  width: 280px;
+  clear: both;
+  float: left;
+  margin: 20px;
+  
+}
+
+.tvyoplus .box .right .main .mobilrightcolumn
+{
+  margin-top: 52px;
+  float: left;
+  width: 185px;
+  font-size: 12px;
+  color: #4f4f4f;
+}
+
+.tvyoplus .box .right .main .seccolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  width: 505px;
+  clear: both;
+  float: left;
+  margin-left: 10px;
+}
+
+.tvyoplus .box .right .main .kuponseccolumn
+{
+  color: #4f4f4f;
+  font-size: 12px;
+  text-align: center;
+  line-height: 22px;
+  width: 505px;
+  clear: both;
+  float: left;
+}
+
+.tvyoplus .box .right .main .kuponseccolumn h3
+{
+  color: #548ecf;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.tvyoplus .box .right .main .kuponseccolumn span
+{
+  color: #4697e4;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.tvyoplus .box .right .baslik .sol span
+{
+  color: #7699a4;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  line-height: 56px;
+}
+
+.tvyoplus .box .paket .baslik .sol span
+{
+  color: #7699a4;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  line-height: 56px;
+}
+
+.tvyoplus .box .right .main .seccolumn .kurumsal
+{
+  margin-left: 15px;
+}
+
+.tvyoplus .box .right .main .rightcolumn .cardnumber
+{
+  float: left;
+  width: 62px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.tvyoplus .box .right .main .rightcolumn .cardname
+{
+  float: left;
+  width: 145px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.tvyoplus .box .right .uyelikkayitmain .uyelikleftcolumn .adisoyadi
+{
+  float: left;
+  width: 230px;
+  height: 26px;
+  margin-bottom: 10px;
+}
+
+.tvyoplus .box .right .uyelikkayitmain .uyelikrightcolumn .eposta
+{
+  float: left;
+  width: 238px;
+  height: 26px;
+  margin-bottom: 10px;
+}
+
+.tvyoplus .box .right .uyelikkayitmain .uyelikrightcolumn .pass
+{
+  float: left;
+  width: 238px;
+  height: 26px;
+  margin-bottom: 10px;
+}
+
+.tvyoplus .box .right .uyelikkayitmain .uyelikrightcolumn .repass
+{
+  float: left;
+  width: 238px;
+  height: 26px;
+  margin-bottom: 10px;
+}
+
+.tvyoplus .box .right .uyelikkayitmain .uyelikleftcolumn .username
+{
+  float: left;
+  width: 230px;
+  height: 26px;
+  margin: 0 10px 10px 0;
+}
+
+.tvyoplus .box .right .uyelikmain .uyelikrightcolumn .username
+{
+  float: left;
+  width: 248px;
+  height: 26px;
+  margin: 0 10px 10px 0;
+}
+
+.tvyoplus .box .right .uyelikmain .uyelikrightcolumn .eposta
+{
+  float: left;
+  width: 230px;
+  height: 26px;
+  margin: 0 10px 10px 0;
+}
+
+.tvyoplus .box .right .uyeliksifremain .uyelikrightcolumn .eposta
+{
+  float: left;
+  width: 230px;
+  height: 26px;
+  margin: 0 10px 10px 0;
+}
+
+.tvyoplus .box .right .uyelikmain .uyelikrightcolumn .pass
+{
+  float: left;
+  width: 248px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.tvyoplus .box .right .kupontext
+{
+  float: left;
+  width: 125px;
+  height: 26px;
+  margin-right: 10px;
+}
+
+.tvyoplus .box .right .main .rightcolumn .cardcode
+{
+  width: 60px;
+  height: 26px;
+}
+
+.tvyoplus .box .right .main .rightcolumn .tarih
+{
+  width: 160px;
+  clear: both;
+  padding: 17px 0px 17px 0px;
+}
+
+.tvyoplus .box .right .main .leftcolumn p
+{
+
+height: 20px;
+	padding-top:10px;
+display: block;
+vertical-align: middle;
+}
+
+.tvyoplus .box .right .main .rightcolumn p
+{
+  min-height: 1px;
+}
+
+.tvyoplus .box .right .main .bireyselleftcolumn p
+{
+line-height: 40px;
+height: 38px;
+display: block;
+vertical-align: middle;
+}
+.tvyoplus .box .right .main .kurumsalleftcolumn p
+{
+line-height: 28px;
+height: 30px;
+display: block;
+vertical-align: middle;
+}
+.tvyoplus .box .right .main .bireyselrightcolumn p
+{
+  min-height: 1px;
+}
+
+.tvyoplus .box .right .main .bireyselrightcolumn .adsoyad
+{
+  float: left;
+  width: 145px;
+  height: 26px;
+  margin-right: 15px;
+}
+
+.tvyoplus .box .right .main .bireyselrightcolumn .adres
+{
+  float: left;
+  width: 418px;
+  height: 26px;
+ 
+}
+
+.tvyoplus .kurum
+{
+  float: right;
+  clear: both;
+  margin-top: -45px;
+}
+
+.tvyoplus .box .right .main .bireyselrightcolumn .adresiki
+{
+  float: left;
+  width: 145px;
+  height: 26px;
+  margin: 15px 0px 15px 0px;
+}
+
+.tvyoplus .box .right .main .bireyselrightcolumn .semt
+{
+  float: left;
+  width: 145px;
+  height: 26px;
+  margin-right: 15px;
+}
+
+.tvyoplus .box .right .main .bireyselrightcolumn .tckimlik
+{
+  float: left;
+  width: 145px;
+  height: 26px;
+}
+
+.tvyoplus .box .right .main .bireyselrightcolumn .postakodu
+{
+  width: 145px;
+  height: 26px;
+  margin-left: 12px;
+}
+
+.tvyoplus .box .right .main .bireyselrightcolumn .vergino
+{
+  width: 145px;
+  height: 26px;
+  margin-left: 12px;
+}
+
+.tvyoplus .box .right .main .bireyselrightcolumn .vergid
+{
+  width: 145px;
+  height: 26px;
+  float: left;
+  margin-top: 15px;
+}
+
+.tvyoplus .fixed p
+{
+  min-height: 27px !important;
+}
+
+.tvyoplus .box .right .main  .firmaadi
+{
+  width: 145px;
+  height: 26px;
+  margin-left: 12px;
+}
+
+.tvyoplus .box .right .main .bireyselrightcolumn .cep
+{
+  width: 95px;
+  height: 26px;
+  margin-left: 15px;
+}
+
+.tvyoplus .floatright
+{
+ float: left;
+display: block;
+clear: both;
+margin-left: 200px;
+
+}
+
+.tvyoplus .seccolumn .floatright
+{
+  float: right;
+  clear: both;
+  margin-top: 0px;
+}
+
+label
+{
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-family: arial;
+  font-size: 12px;
+  color: #4f4f4f;
+}
+
+.tvyoplus .box .right .altbaslik
+{
+  padding: 10px 0 0 10px;
+  width: 549px;
+  height: 48px;
+  border-top: #e6e6e6 solid 1px;
+}
+
+.tvyoplus .box .right .altbaslik .sol
+{
+  width: 55%;
+  float: left;
+  padding-top: 2px;
+  text-align: left;
+}
+
+.tvyoplus .box .right .altbaslik .sag
+{
+  float: right;
+  width: 40%;
+  padding-right: 10px;
+}
+
+.tvyoplus .satinalbox span
+{
+  line-height: 26px;
+  float: left;
+}
+
+.tvyoplus .satinalbox a.satinal
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -24px -682px;
+  width: 124px;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  float: right;
+}
+
+.tvyoplus .satinalbox a.satinal:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -24px -722px;
+}
+
+.tvyoplus .satinalbox a.onizleme
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -155px -682px;
+  width: 124px;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  float: right;
+  margin-left: 8px;
+}
+
+.tvyoplus .satinalbox a.onizleme:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -155px -722px;
+}
+
+.tvyoplus .box .right .altbaslik .sag a.kapat
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -297px -232px;
+  width: 134px;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  float: right;
+}
+
+.tvyoplus .box .right .altbaslik .sag a.kapat:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -297px -265px;
+}
+
+.tvyoplus .box .paket a.fiyatone
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -230px -852px;
+  width: 181px;
+  height: 34px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .paket a.fiyatone:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -230px -893px;
+}
+
+.tvyoplus .box .paket a.fiyattwo:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -22px -808px;
+}
+
+.tvyoplus .box .paket a.fiyattwo
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -22px -768px;
+  width: 181px;
+  height: 34px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .paket a.fiyatthree
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -230px -768px;
+  width: 181px;
+  height: 34px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .paket a.fiyatthree:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -230px -808px;
+}
+
+.tvyoplus .box .paket .main .columnspan
+{
+  height: 158px;
+  display: block;
+}
+
+.tvyoplus .box .right .altbaslik a.mobil
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -231px -937px;
+  width: 223px;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  float: right;
+  margin-right: 4px;
+}
+
+.tvyoplus .box .right .uyelikrightcolumn a.girisyap
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -15px -1625px;
+  width: 133px;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  float: right;
+  margin-right: 14px;
+}
+
+.tvyoplus .box .paket a.hemenal
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -284px -1659px;
+  width: 133px;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  float: right;
+  margin: 6px 0 0 0;
+}
+
+.tvyoplus .box .right .uyelikrightcolumn a.sifremisifirla
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -15px -1662px;
+  width: 133px;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  float: right;
+  margin-right: 34px;
+}
+
+.tvyoplus .box .right a.girisyap
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -15px -1625px;
+  width: 133px;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  float: right;
+  margin-right: 14px;
+}
+
+.tvyoplus .box .right .altbaslik a.kredikarti
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -231px -980px;
+  width: 223px;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  margin-right: 10px;
+  float: right;
+}
+
+.tvyoplus .box .right .altbaslik a.kuponkodu
+{
+  font-family: arial;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #107ac2;
+}
+
+.tvyoplus .box .right .visamaster
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -13px -1463px;
+  width: 124px;
+  height: 31px;
+  display: block;
+}
+
+.tvyoplus .box .paket .paketlertumu
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -11px -1725px;
+  width: 317px;
+  height: 26px;
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #e6e6e6;
+  margin-left: -10px;
+}
+
+.tvyoplus .box .paket .bigpaketlertumu
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -11px -1763px;
+  width: 417px;
+  height: 36px;
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #e6e6e6;
+  margin: 0px 0px 8px -10px;
+}
+
+.tvyoplus .box .right .tesekkurler
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -303px -3px;
+  width: 420px;
+height: 96px;
+display: block;
+margin: 70px 10px 0px 16px;
+float: left;
+font-family: arial;
+font-weight: normal;
+color: #747474;
+text-align: left;
+padding-left: 100px;
+}
+
+
+
+.tvyoplus .box .right .tesekkurler h1
+{
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.tvyoplus .box .right .tesekkurler h2
+{
+  font-size: 12px;
+}
+
+.tvyoplus .uyelikbox .right .tesekkurler
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -175px -1622px;
+  width: 89px;
+  height: 89px;
+  display: block;
+  margin: 0px 10px 0 16px;
+  float: left;
+}
+
+.tvyoplus .uyelikbox .right .tesekkur
+{
+  width: 475px;
+  margin: 80px 0 0 30px;
+  font-family: 'dosismedium';
+  font-weight: normal;
+  color: #747474;
+  text-align: left;
+}
+
+.tvyoplus .uyelikbox .right .tesekkur h1
+{
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.tvyoplus .uyelikbox .right .tesekkur h2
+{
+  font-size: 15px;
+  color: #cbcbcb;
+}
+
+
+.tvyoplus .box .right a.fbgiris
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -15px -1507px;
+  width: 233px;
+  height: 45px;
+  display: block;
+  text-decoration: none;
+  margin: 26px 0px 13px 5px;
+}
+
+.tvyoplus .box .right a.fbuyeol
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -15px -1565px;
+  width: 233px;
+  height: 45px;
+  display: block;
+  text-decoration: none;
+  margin: 0px 0px 0px 5px;
+}
+
+.tvyoplus .box .right .altbaslik .sag a.hemenizle
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -297px -135px;
+  width: 134px;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  float: right;
+}
+
+.tvyoplus .box .right .altbaslik .sag a.hemenizle:hover
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -297px -169px;
+}
+
+.tvyoplus .box .right .mobilodemeler
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -16px -973px;
+  width: 211px;
+  height: 55px;
+  display: block;
+}
+
+.tvyoplus .box .right .main .rightcolumn .gsmone
+{
+  float: left;
+  width: 46px;
+  height: 26px;
+  margin-left: 10px;
+}
+
+.tvyoplus .box .right .main .rightcolumn .gsmtwo
+{
+  float: left;
+  width: 31px;
+  height: 26px;
+  margin-left: 10px;
+}
+
+.tvyoplus .box .right .uyelikkayitmain .uyelikleftcolumn .gsmone
+{
+  float: left;
+  width: 46px;
+  height: 26px;
+  margin-left: 10px;
+}
+
+.tvyoplus .box .right .uyelikkayitmain .uyelikleftcolumn .gsmtwo
+{
+  float: left;
+  width: 31px;
+  height: 26px;
+  margin-left: 10px;
+}
+
+.tvyoplus .box .right .main .kuponrightcolumn .kuponkodu
+{
+  float: left;
+  width: 76px;
+  height: 26px;
+  margin-left: 10px;
+}
+
+.tvyoplus .box .left .mobiliki
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -287px -1252px;
+  width: 81px;
+  height: 188px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .left .mobiluc
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -376px -1252px;
+  width: 81px;
+  height: 188px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .right .onay
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -298px -351px;
+  width: 160px;
+  height: 190px;
+  display: block;
+}
+
+.tvyoplus .box .right .main .mobilleftcolumn .gerisayim
+{
+	background: transparent url(../images/inputsayi.png) no-repeat top left;
+border:none;
+  float: left;
+  width: 48px;
+  height: 64px;
+  margin: 20px 5px 0 0;
+  font-size: 47px;
+  color: #107ac2;
+  text-align: center;
+}
+
+.tvyoplus .box .right .noktalar
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -438px -644px;
+  width: 12px;
+  height: 55px;
+  display: block;
+  float: left;
+  margin: 25px 5px 0 0;
+}
+
+.tvyoplus .box .left .kuponiki
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -105px -1251px;
+  width: 81px;
+  height: 188px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .left .uyelikiki
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -285px -1463px;
+  width: 81px;
+  height: 188px;
+  display: block;
+  text-decoration: none;
+}
+
+.tvyoplus .box .left .uyelikuc
+{
+  background: url('../images/plus-sprite.png');
+  background-repeat:no-repeat;
+  background-position: -376px -1463px;
+  width: 81px;
+  height: 188px;
+  display: block;
+  text-decoration: none;
+}
