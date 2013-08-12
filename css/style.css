@@ -1670,3 +1670,6 @@ select.width60px {
 select.width145px {
 	width: 145px;
 }
+select.width100px {
+  width: 100px;
+}
