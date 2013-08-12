@@ -525,26 +525,26 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 	font-family: arial;
 	color: #8e8e8e;
 }
-.tvyoplus .box .paket .main .leftcolumnone span {
+.tvyoplus .box .paket .main .leftcolumnone span.fullline {
 	width: 185px;
 	display: block;
-	height: 3px;
+	height: 8px;
 	color: #8e8e8e;
 	font-size: 12px;
 	font-family: arial;
-	padding: 20px 0 15px 0;
+	padding: 15px 0 15px 0;
 }
-.tvyoplus .box .paket .leftcolumnone span.last {
+.tvyoplus .box .paket .leftcolumnone span.last.fullline {
 	display: block;
 	width: 185px;
-	height: 9px;
+	height: 15px;
 	border-bottom: 0px;
 	color: #8e8e8e;
 	font-size: 12px;
 	font-family: arial;
-	padding: 20px 0 20px 0;
+	padding: 15px 0 15px 0;
 }
-.tvyoplus .box .paket .main .leftcolumntwo span {
+.tvyoplus .box .paket .main .leftcolumntwo span.fullline {
 	width: 185px;
 	display: block;
 	height: 3px;
@@ -553,7 +553,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 	font-family: arial;
 	padding: 20px 0 15px 0;
 }
-.tvyoplus .box .paket .leftcolumntwo span.last {
+.tvyoplus .box .paket .leftcolumntwo span.last.fullline {
 	display: block;
 	width: 185px;
 	height: 9px;
@@ -581,7 +581,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 	color: #107ac2;
 	padding-top: 15px;
 }
-.tvyoplus .box .paket .main .leftcolumnthree span {
+.tvyoplus .box .paket .main .leftcolumnthree span.fullline {
 	width: 185px;
 	display: block;
 	height: 3px;
@@ -590,7 +590,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 	font-family: arial;
 	padding: 20px 0 15px 0;
 }
-.tvyoplus .box .paket .leftcolumnthree span.last {
+.tvyoplus .box .paket .leftcolumnthree span.last.fullline {
 	display: block;
 	width: 185px;
 	height: 9px;
@@ -813,25 +813,25 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 	color: #107ac2;
 	padding-top: 15px;
 }
-.tvyoplus .box .paket .main .bigrightcolumn span {
+.tvyoplus .box .paket .main .bigrightcolumn span.fullline {
 	width: 405px;
 	display: block;
-	height: 9px;
+	height: 15px;
 	border-bottom: 1px solid #e6e6e6;
 	color: #8e8e8e;
 	font-size: 12px;
 	font-family: arial;
-	padding: 20px 0 15px 0;
+	padding: 15px 0 15px 0;
 }
-.tvyoplus .box .paket .bigrightcolumn span.last {
+.tvyoplus .box .paket .bigrightcolumn span.last.fullline {
 	display: block;
 	width: 405px;
-	height: 9px;
+	height: 15px;
 	border-bottom: 0px;
 	color: #8e8e8e;
 	font-size: 12px;
 	font-family: arial;
-	padding: 20px 0 15px 0;
+	padding: 15px 0 15px 0;
 }
 .tvyoplus .box .paket .rightcolumn span.last {
 	margin-left: 100px;
@@ -876,7 +876,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 .tvyoplus .box .right .uyelikkayitmain .uyelikleftcolumn {
 	color: #4f4f4f;
 	font-size: 12px;
-	width: 260px;
+	width: 250px;
 	clear: both;
 	float: left;
 }
