@@ -11,18 +11,21 @@
     font-style: normal;
 
 }
-.tvyoplus .box table {
-	border-spacing:0px;
-	border:none;
-	margin-left:-1px;
-	border-collapse:collapse;
-}
+
 
 .tvyoplus .box tr {
 	height:45px;
 }
 
-
+.tvyoplus .box .right .main .bireyselrightcolumn tr {
+	height:45px;
+}
+.tvyoplus .box .right .main .kurumsalrightcolumn tr {
+	height:30px;
+}	
+.tvyoplus .box .right .main .kurumsalleftcolumn tr {
+	height:45px;
+}
 .tvyoplus .box 
 {
   background-color: #f6f6f6;
@@ -1244,7 +1247,14 @@ padding-top: 10px;
   font-size: 12px;
   color: #4f4f4f;
 }
-
+.tvyoplus .box .right .main .kurumsalrightcolumn
+{
+  margin-top: 18px;
+  float: left;
+  width: 425px;
+  font-size: 12px;
+  color: #4f4f4f;
+}
 .tvyoplus .box .right .main .mobilleftcolumn
 {
   color: #747474;
@@ -1470,15 +1480,14 @@ vertical-align: middle;
   min-height: 1px;
 }
 
-.tvyoplus .box .right .main .bireyselrightcolumn .adsoyad
+.tvyoplus .box .right .main .adsoyad
 {
   float: left;
   width: 145px;
   height: 26px;
-  margin-right: 15px;
 }
 
-.tvyoplus .box .right .main .bireyselrightcolumn .adres
+.tvyoplus .box .right .main .adres
 {
   float: left;
   width: 418px;
@@ -1493,7 +1502,7 @@ vertical-align: middle;
   margin-top: -45px;
 }
 
-.tvyoplus .box .right .main .bireyselrightcolumn .adresiki
+.tvyoplus .box .right .main .adresiki
 {
   float: left;
   width: 145px;
@@ -1501,7 +1510,7 @@ vertical-align: middle;
   margin: 15px 0px 15px 0px;
 }
 
-.tvyoplus .box .right .main .bireyselrightcolumn .semt
+.tvyoplus .box .right .main  .semt
 {
   float: left;
   width: 145px;
@@ -1509,28 +1518,28 @@ vertical-align: middle;
   margin-right: 15px;
 }
 
-.tvyoplus .box .right .main .bireyselrightcolumn .tckimlik
+.tvyoplus .box .right .main  .tckimlik
 {
   float: left;
   width: 145px;
   height: 26px;
 }
 
-.tvyoplus .box .right .main .bireyselrightcolumn .postakodu
+.tvyoplus .box .right .main  .postakodu
 {
   width: 145px;
   height: 26px;
   margin-left: 12px;
 }
 
-.tvyoplus .box .right .main .bireyselrightcolumn .vergino
+.tvyoplus .box .right .main  .vergino
 {
   width: 145px;
   height: 26px;
   margin-left: 12px;
 }
 
-.tvyoplus .box .right .main .bireyselrightcolumn .vergid
+.tvyoplus .box .right .main  .vergid
 {
   width: 145px;
   height: 26px;
@@ -1550,7 +1559,7 @@ vertical-align: middle;
   margin-left: 12px;
 }
 
-.tvyoplus .box .right .main .bireyselrightcolumn .cep
+.tvyoplus .box .right .main .cep
 {
   width: 95px;
   height: 26px;
