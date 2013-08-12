@@ -5,7 +5,15 @@
 <title>Başlıksız Belge</title>
 <link rel="stylesheet" href="css/style.css">
 <script src="js/jquery.js"></script>
+<script src="js/jquery.customSelect.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+$(function(){
+
+$('select.styled').customSelect();
+
+});
+</script>
 
 <!--[if lt IE 9]>
 
@@ -13,26 +21,11 @@
 
 <![endif]-->
 
-<script type="text/javascript">
-function showonlyone(thechosenone) {
-      var newboxes = document.getElementsByTagName("div");
-            for(var x=0; x<newboxes.length; x++) {
-                  name = newboxes[x].getAttribute("class");
-                  if (name == 'newboxes') {
-                        if (newboxes[x].id == thechosenone) {
-                        newboxes[x].style.display = 'block';
-                  }
-                  else {
-                        newboxes[x].style.display = 'none';
-                  }
-            }
-      }
-}
-$('.dropdown-toggle').dropdown()
-</script>
+  
 </head>
 
 <body class="tvyoplus">
+
 
 <table width="2720" border="0">
 <tr><td width="680" align="center" valign="top">
@@ -76,14 +69,14 @@ $('.dropdown-toggle').dropdown()
             
                 <div class="tarih">
                 
-                <select>
+                <select class="styled width80px">
                 <option>Ay</option>
                 <option>Ocak</option>
                 <option>Şubat</option>
                 <option>Mart</option>
                 </select>
                 
-                <select>
+                <select class="styled width80px">
                 <option>Yıl</option>
                 <option>1985</option>
                 <option>1986</option>
@@ -175,14 +168,14 @@ $('.dropdown-toggle').dropdown()
             
                 <div class="tarih">
                 
-                <select>
+                <select class="styled width80px">
                 <option>Ay</option>
                 <option>Ocak</option>
                 <option>Şubat</option>
                 <option>Mart</option>
                 </select>
                 
-                <select>
+                <select class="styled width80px">
                 <option>Yıl</option>
                 <option>1985</option>
                 <option>1986</option>
@@ -277,12 +270,14 @@ $('.dropdown-toggle').dropdown()
             <table><tr><td width="150px"><input type="text" class="adsoyad">
           </td>
             <td>Cep Telefonu
-           <select>
-                <option>Ay</option>
-                <option>Ocak</option>
-                <option>Şubat</option>
-                <option>Mart</option>
+                <select class="styled width60px">
+                <option>532</option>
+                <option>505</option>
+                <option>506</option>
+                <option>507</option>
                 </select>
+                
+
           
           
             <input type="text" class="cep">
@@ -295,11 +290,10 @@ $('.dropdown-toggle').dropdown()
             <td>
            
         	 	 Şehir
-           <select>
+           <select class="styled width145px">
                 <option>İstanbul</option>
-                <option>Ocak</option>
-                <option>Şubat</option>
-                <option>Mart</option>
+                <option>Ankara</option>
+                <option>İzmir</option>
                 </select>  </td></tr></table>
           
 				
@@ -383,11 +377,11 @@ $('.dropdown-toggle').dropdown()
           <table><tr><td width="150px">
             <input type="text" class="adsoyad"></td><td>
           Cep Telefonu
-           <select>
-                <option>Ay</option>
-                <option>Ocak</option>
-                <option>Şubat</option>
-                <option>Mart</option>
+                <select class="styled width60px">
+                <option>532</option>
+                <option>505</option>
+                <option>506</option>
+                <option>507</option>
                 </select>
           
    
@@ -399,11 +393,10 @@ $('.dropdown-toggle').dropdown()
            
             </td><td align="right">
         	 	 Şehir
-           <select>
+           <select class="styled width145px">
                 <option>İstanbul</option>
-                <option>Ocak</option>
-                <option>Şubat</option>
-                <option>Mart</option>
+                <option>Ankara</option>
+                <option>İzmir</option>
                 </select> 
                 
                 </td></tr>
@@ -534,13 +527,14 @@ $('.dropdown-toggle').dropdown()
                        
             </div>
             <div class="rightcolumn">
-          <select style="float: left;">
-                <option>0535</option>
-                <option>0536</option>
-                <option>0555</option>
-                <option>0544</option>
+      
+                <select class="styled width60px" style="float: left;">
+                <option>532</option>
+                <option>505</option>
+                <option>506</option>
+                <option>507</option>
                 </select>
-          
+
             <input type="text" class="gsmone">
             <input type="text" class="gsmtwo">
             <input type="text" class="gsmtwo">

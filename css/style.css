@@ -1442,7 +1442,7 @@ padding-top: 10px;
 
 .tvyoplus .box .right .main .rightcolumn .tarih
 {
-  width: 160px;
+  width: 175px;
   clear: both;
   padding: 17px 0px 17px 0px;
 }
@@ -2109,3 +2109,25 @@ border:none;
   display: block;
   text-decoration: none;
 }
+
+span.customSelect {
+  font-size:12px;
+  background: url(../images/selectbox_bg.gif) repeat-x;
+  color:#0d7bbd;
+  padding:5px 7px;
+  border:1px solid #e6e6e6;
+  height: 16px;
+
+}
+
+span.customSelect.changed {
+  background-color: #f0dea4;
+}
+.customSelectInner {
+  background:url(../images/customSelect-arrow.gif) no-repeat center right;
+
+}
+
+select.width80px {width: 80px;}
+select.width60px {width: 60px;}
+select.width145px {width: 145px;}
