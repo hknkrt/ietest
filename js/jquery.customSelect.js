@@ -66,8 +66,7 @@
                     .addClass('hasCustomSelect')
                     .on('update', function () {
 						changed($select,customSelectSpan);
-						console.log(parseInt($select.outerWidth(), 10),parseInt(customSelectSpan.outerWidth(), 10), parseInt(customSelectSpan.width(), 10));
-                        var selectBoxWidth = parseInt($select.outerWidth(), 10) -
+						var selectBoxWidth = parseInt($select.outerWidth(), 10) -
                                 (parseInt(customSelectSpan.outerWidth(), 10) -
                                     parseInt(customSelectSpan.width(), 10));
 						
@@ -88,7 +87,6 @@
                             width:   selectBoxWidth,
                             display: 'inline-block'
                         });
-                        console.log(selectBoxWidth);
 
                         $select.css({
                             '-webkit-appearance': 'menulist-button',
