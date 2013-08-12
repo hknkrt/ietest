@@ -56,10 +56,6 @@
   margin-top:-2px;
 }
 
-.tvyoplus .box .right .main .rightcolumn .gsmtwo
-{
-  margin-right: 0px;
-}
 
 .checkbox229_lbl {
 	margin-top:40px;
@@ -144,40 +140,4 @@ height:5px;
   
   margin: 9px 0 0 0;
 }
-.tvyoplus .box .right .main .leftcolumn p
-{
 
-height: 15px;
-	padding-top:14px;
-display: block;
-vertical-align: middle;
-}
-
-.tvyoplus .box .right .main .bireyselleftcolumn p
-{
-	height: 15px;
-	padding-top:14px;
-}
-.tvyoplus .box .right .main .bireyselrightcolumn .semt {
-float: left;
-width: 145px;
-height: 36px;
-margin-right: 5px;
-}
-
-
-.tvyoplus .box .right .main .bireyselrightcolumn .tckimlik {
-float: left;
-width: 145px;
-height: 26px;
-margin-top: 83px;
-}
-
-.tvyoplus .seccolumn .floatright {
-margin-top: -25px;
-}
-
-.tvyoplus .box .right .main .bireyselrightcolumn p{
-	width:425px;
-	height:35px;
-}
