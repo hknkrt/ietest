@@ -128,9 +128,7 @@ input[type=checkbox].css-checkbox + label.css-label {
 	vertical-align: middle;
 	cursor: pointer;
 }
-.tvyoplus .marginbt {
-	margin: 15px 0px 20px 0px;
-}
+
 input[type=checkbox].css-checkbox:checked + label.css-label {
 	background-position: -386px -1152px;
 }
@@ -399,6 +397,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 	clear: both;
 	float: left;
 	margin-left: 10px;
+	
 }
 .tvyoplus .box .paket .main .leftcolumn {
 	color: #4f4f4f;
@@ -714,9 +713,11 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 .tvyoplus .box .right .uyelikbottomleftcolumn {
 	color: #4f4f4f;
 	font-size: 12px;
-	width: 335px;
-	clear: both;
-	float: left;
+	width: 330px;
+clear: both;
+float: left;
+margin-top: 15px;
+margin-left: 5px;
 }
 .tvyoplus .box .right .uyelikbottomleftcolumn a {
 	color: #107ac2;
@@ -962,7 +963,6 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 	border-top: #e6e6e6 solid 1px;
 }
 .tvyoplus .box .right .main .rightcolumn {
-	margin-top: 18px;
 	float: left;
 	width: 400px;
 	text-align: left;
@@ -1150,11 +1150,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 	width: 60px;
 	height: 26px;
 }
-.tvyoplus .box .right .main .rightcolumn .tarih {
-	width: 175px;
-	clear: both;
-	padding: 17px 0px 17px 0px;
-}
+
 .tvyoplus .box .right .main .leftcolumn p {
 	height: 20px;
 	padding-top: 10px;
