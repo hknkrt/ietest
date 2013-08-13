@@ -103,6 +103,11 @@
 .tvyoplus input[type="text"] {
 	background: transparent url(../images/input.png) no-repeat top left;
 	border: none;
+	padding-left:7px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 .tvyoplus .hata {
 	border: 2px inset #ec8f8f;
@@ -997,7 +1002,6 @@ margin-left: 5px;
 	margin-left: 10px;
 }
 .tvyoplus .box .right .main .bireyselrightcolumn {
-	margin-top: 18px;
 	float: left;
 	width: 425px;
 	font-size: 12px;
@@ -1182,7 +1186,7 @@ margin-left: 5px;
 }
 .tvyoplus .box .right .main .adres {
 	float: left;
-	width: 405px;
+	width: 418px;
 	height: 26px;
 }
 .tvyoplus .kurum {
@@ -1209,12 +1213,12 @@ margin-left: 5px;
 .tvyoplus .box .right .main .postakodu {
 	width: 145px;
 	height: 26px;
-	margin-left: 12px;
+	margin-left: 16px;
 }
 .tvyoplus .box .right .main .vergino {
 	width: 145px;
 	height: 26px;
-	margin-left: 12px;
+	margin-left: 5px;
 }
 .tvyoplus .box .right .main .vergid {
 	width: 145px;
@@ -1230,7 +1234,7 @@ margin-left: 5px;
 	margin-left: 12px;
 }
 .tvyoplus .box .right .main .cep {
-	width: 95px;
+	width: 83px;
 	height: 26px;
 	margin-left: 5px;
 }
@@ -1709,6 +1713,11 @@ select.width145px {
 select.width100px {
   width: 100px;
 }
-
+select.width75px {
+  width: 75px;
+}
+select.width136px {
+  width: 136px;
+}
 .checkbox229_lbl {
 	margin:20px 0 20px 0;
