@@ -1,3 +1,27 @@
+.tvyoplus .box .paket .main .bigleftcolumn {
+	margin-top:10px;
+}
+.tvyoplus .box .paket .main .bigrightcolumn {
+	margin-top:10px;
+}
+.tvyoplus .box .paket .main .bigrightcolumn span.fullline {
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+.tvyoplus .box .right .uyelikbottomrightcolumn {
+	margin: 10px 14px 0 40px;
+}
+
+.tvyoplus .box .right .uyelikkayitmain .uyelikleftcolumn {
+	margin-top:10px;
+}
+.tvyoplus .box .right .uyelikkayitmain .uyelikrightcolumn {
+margin-top:10px;	
+}
+.tvyoplus .box .paket .main .bigrightcolumn .sureler{
+margin-bottom: 7px;
+padding-top: 0px;	
+}
 .tvyoplus .box .right .baslik .sol{
 	display: inline-block;
 	padding-top:15px;

@@ -7,6 +7,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
 .tvyoplus .box tr {
 	height: 45px;
 }
@@ -701,9 +702,8 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 	color: #4f4f4f;
 	font-size: 12px;
 	width: 130px;
-	clear: both;
-	float: right;
-	margin: -35px 14px 0 0;
+	float: left;
+	margin: 10px 14px 0 60px;
 }
 .tvyoplus .box .right .uyelikmain .uyelikcentercolumn {
 	border-left: 1px solid #e6e6e6;
@@ -1673,3 +1673,6 @@ select.width145px {
 select.width100px {
   width: 100px;
 }
+
+.checkbox229_lbl {
+	margin:20px 0 20px 0;
