@@ -375,7 +375,6 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 .tvyoplus .box .right .uyeliksifremain {
 	width: 100%;
 	height: 255px;
-	margin-left: 10px;
 	text-align: left;
 }
 .tvyoplus .box .right .uyelikkayitmain {
@@ -709,10 +708,11 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 .tvyoplus .box .right .uyeliksifremain .uyeliksifrecolumn {
 	color: #4f4f4f;
 	font-size: 12px;
-	width: 260px;
+	width: 250px;
 	clear: both;
 	float: left;
-	margin-top: 10px;
+	margin: 10px 10px 0 10px;
+
 	line-height: 23px;
 }
 .tvyoplus .box .right .uyelikbottomleftcolumn {
@@ -896,7 +896,7 @@ margin-left: 5px;
 .tvyoplus .box .right .uyeliksifremain .uyelikrightcolumn {
 	margin-top: 10px;
 	float: left;
-	width: 270px;
+	width: 260px;
 	text-align: left;
 	color: #4f4f4f;
 	font-size: 12px;
