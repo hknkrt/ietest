@@ -8,8 +8,8 @@
 	margin-top:10px;
 }
 .tvyoplus .box .paket .main .bigrightcolumn span.fullline {
-	padding-top: 10px;
-	padding-bottom:10px;
+	padding-top: 15px;
+	padding-bottom:15px;
 }
 .tvyoplus .box .right .uyelikbottomrightcolumn {
 	margin: 10px 14px 0 40px;
@@ -168,3 +168,19 @@ height:5px;
   margin: 9px 0 0 0;
 }
 
+.tvyoplus .uyelikbox .right .tesekkur h1 {
+	margin:-80px 0px 5px 80px;
+	
+		width:410px;
+}
+.tvyoplus .uyelikbox .right .tesekkur h2 {
+	margin-left:80px;
+	margin-top:-1px !important;
+	height:20px;
+}
+
+.tvyoplus .uyelikbox .right .iefixed{
+	height:30px;
+	display:block;
+	width:500px;
+}

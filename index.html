@@ -32,6 +32,44 @@ $('.tvyoplus input[type="text"]').each(function(index, element) {
 </script>
 <![endif]-->
 
+<!--[if IE 8]>
+<style type="text/css">
+.tvyoplus .box .paket .main .webone
+{
+	margin-top:-5px;
+}
+.tvyoplus .box .paket .main .tabletone
+{
+	margin-top:-5px;
+}
+.tvyoplus .box .paket .main .mobilone
+{
+	margin-top:-5px;
+}
+.tvyoplus .uyelikbox .right .tesekkurler {
+margin-top:-50px;
+}
+.tvyoplus .box .paket .main .bigleftcolumn {
+	margin-top:0px;
+}
+.tvyoplus .box .paket .main .bigrightcolumn {
+	margin-top:0px;
+}
+.tvyoplus .uyelikbox .right .tesekkur h1 {
+margin:-40px 0px 5px 80px;}
+.tvyoplus .uyelikbox .right .iefixed{
+	height:50px;
+	display:block;
+	width:500px;
+}
+.tvyoplus .box .paket .main .bigrightcolumn span.fullline {
+	padding-top: 15px;
+	padding-bottom:15px;
+	margin-top:5px;
+}
+</style>
+<![endif]-->
+
 </head>
 
 <body class="tvyoplus">
@@ -130,9 +168,11 @@ $('.tvyoplus input[type="text"]').each(function(index, element) {
           <div class="baslik">
             <div class="sol">
               <h1>Star Wars - Return of the Jedi</h1>
+              	<div class="indirim">
               <h2 class="oldprice">14,90 TL</h2>
               <h2 class="newprice">7,90 TL</h2>
               <h2 class="discount">%30 indirim kazandınız</h2>
+              </div>
             </div>
             <div class="sag">
               <div class="guvenli"></div>
@@ -453,10 +493,15 @@ $('.tvyoplus input[type="text"]').each(function(index, element) {
               </select>
               <input type="text" class="gsmone">
               <input type="text" class="gsmtwo">
-              <input type="text" class="gsmtwo"></td></tr>
-              <tr><td>
-              <input type="checkbox" id="checkbox229" class="css-checkbox"/>
-              <label for="checkbox229" name="checkbox229_lbl" class="css-label checkbox229_lbl"><a href="#">Kullanıcı Sözleşmesi</a>’ni Okudum ve Kabul Ediyorum.</label></td></tr></table>
+              <input type="text" class="gsmtwo"></td></tr></table>
+                <table>
+                <tr>
+                  <td>
+              <input type="checkbox" id="checkbox222" class="css-checkbox"/>
+              <label for="checkbox222" name="checkbox222_lbl" class="css-label marginbt"><a href="#">Kullanıcı Sözleşmesi</a>’ni Okudum ve Kabul Ediyorum.</label>
+              </td></tr></table>
+            
+             
               <div class="mobilodemeler">&nbsp;</div>
             </div>
           </div>
@@ -562,10 +607,11 @@ $('.tvyoplus input[type="text"]').each(function(index, element) {
             <div class="kuponseccolumn"> <br>
               Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı </div>
             <div class="kuponleftcolumn">
-              <p>Kupon Kodu</p>
-            </div>
-            <div class="kuponrightcolumn">
-              <input type="text" class="kuponkodu">
+            
+               <div class="form-group">
+                <label>Güvenlik Kodu</label>
+                <input type="text" class="kuponkodu">
+              </div>
             </div>
             <div class="kuponseccolumn"> <br>
               Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı </div>
@@ -753,6 +799,7 @@ $('.tvyoplus input[type="text"]').each(function(index, element) {
       <div class="uyelikbox">
         <div class="right">
           <div class="maintesekkur">
+          <div class="iefixed"></div>
             <div class="tesekkurler"></div>
             <div class="tesekkur">
               <h1>Üyelik İşleminiz Başarıyla Tamamlanmıştır.
